@@ -1,0 +1,137 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455; 
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus{
+  text-decoration: underline;
+  color: #4D5AE5;
+}
+
+.nav-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.nav-menu:hover, .nav-menu:focus {
+  color: #404BBF;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+}
+
+.head-span {
+  color: #2E2F42;
+}
+
+.addrs {
+  font-style: normal;
+}
+
+.addr-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.addr-list:hover, .addr-list:focus {
+  color: #404BBF;
+}
+
+.sect-head {
+  background-color: #2E2F42;
+}
+
+.skt-main {
+  color: #FFFFFF;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+}
+
+.form-btm {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.form-btm:hover, .form-btm:focus {
+  background-color: #404BBF;
+}
+
+.sect-main {
+  color: #2E2F42;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.page-title {
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.descr {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.sect-team {
+  background-color: #F4F4FD;
+}
+
+.sect-form {
+  background-color: #FFFFFF;
+}
+
+.ftr {
+  background: #2E2F42;
+}
+
+.letter {
+  color: #f4f4fd;
+}
+
+.ftr-txt {
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
+}
