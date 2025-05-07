@@ -167,10 +167,6 @@ img {
   padding: 120px 0;
 }
 
-.sect-princp .container {
-  
-}
-
 .sect-main {
   color: #2E2F42;
   font-size: 36px;
@@ -179,20 +175,21 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  display: none;
+  /*display: none;*/
 }
 
 .visually-hidden {
   position: absolute;
+  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
   padding: 0;
   overflow: hidden;
-  clip: rect(0 0 0 0);
   white-space: nowrap;
   border: 0;
 }
+
 .princp-list {
   display: flex;
   flex-wrap: wrap;
