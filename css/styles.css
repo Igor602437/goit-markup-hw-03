@@ -39,6 +39,10 @@ img {
   margin: 0;
 }
 
+.page-header .container {
+  border-bottom: 1px solid var#e7e9fc;
+}
+
 .page-header .container, .sctr-nav, .nav-list, .addr-link {
   display: flex;
   justify-content: space-between;
