@@ -105,13 +105,13 @@ img {
   color: #404BBF;
 }
 
-.sect-head .container {
+.sect-head {
+  padding: 188px 0;
   background-color: #2E2F42;
 }
 
-.sect-head {
-  padding: 188px 0;
-  
+.sect-head .container {
+  padding: 0 200px;
 }
 
 .skt-main {
@@ -168,7 +168,17 @@ img {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .sect-main {
@@ -300,7 +310,7 @@ img {
 
 .ftr .container {
   padding-top: 100px;
-  padding-right: 1020px;
+  /*padding-right: 1020px;*/
   padding-bottom: 100px;
   padding-left: 156px;
   background: #2E2F42;
@@ -316,7 +326,9 @@ img {
 }
 
 .ftr-txt {
+  display: flex;
   color: #F4F4FD;
   letter-spacing: 0.02em;
   text-align: left;
+  max-width: 264px;
 }
