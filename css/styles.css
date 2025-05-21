@@ -122,12 +122,13 @@ img {
   font-style: normal;
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .addr-list {
   color: #434455;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .addr-list:hover,
