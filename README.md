@@ -1,4 +1,4 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
 3.  Модуль 3. Блочная модель Flexbox
     Домашнее задание 3
