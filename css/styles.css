@@ -275,15 +275,12 @@ img {
 
 .ftr {
   background: #2e2f42;
-}
-
-.ftr .container {
   padding: 100px 0;
 }
-.logo.ftr {
+
+.logo.footer {
   margin-bottom: 16px;
-  /* display: inline-block; */
-  display: block;
+  display: inline-block;
 }
 
 .letter {
@@ -293,11 +290,4 @@ img {
 .ftr-txt {
   color: #f4f4fd;
   max-width: 264px;
-  /* margin-top: 16px; */
-  /* display: flex;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: left; */
 }
